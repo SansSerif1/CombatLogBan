@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "combatlogban",
+  "version": "${version}",
+
+  "name": "CombatLogBan Mod",
+  "description": "A mod made for (temp) banning people that leave the server midfight.",
+  "authors": [
+    "SansSerif"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "sources": "https://github.com/SansSerif1/CombatLogBan"
+  },
+
+  "license": "GPLv3.0",
+  "icon": "assets/combatlogban/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "me.sansserif.combatlogban.CombatLogBanMod"
+    ],
+    "client": [
+      "me.sansserif.combatlogban.ClientNotice"
+    ]
+  },
+  "mixins": [
+    "combatlogban.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
