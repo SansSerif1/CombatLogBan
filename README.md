@@ -7,7 +7,7 @@ Made for 1.18.1 Fabric servers. (Feel free to copy the source code and port it t
 - Put it into your server mods/ folder
 - Start the server
 - Profit
-- (Optional) Set custom combat timeout and ban length - [Read more](##Config)
+- (Optional) Set custom combat timeout and ban length - [Read more](#Config)
 
 Now when someone attacks someone, they both have to wait 7 seconds (or custom time in config) after last hit to log off, otherwise they will get banned for 1 day (can be also modified in config).
 
